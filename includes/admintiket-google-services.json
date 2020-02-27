@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "277928173271",
+    "firebase_url": "https://tiketwisata-f6ba2.firebaseio.com",
+    "project_id": "tiketwisata-f6ba2",
+    "storage_bucket": "tiketwisata-f6ba2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:277928173271:android:7b458292b60c77d6249a92",
+        "android_client_info": {
+          "package_name": "com.example.tiketwisata"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "277928173271-ph2rnrd5ro4l0h6v8tqm2aatk9l3i87k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tiketwisata",
+            "certificate_hash": "3d691441f8ba49709314af6f7ed705d3901279eb"
+          }
+        },
+        {
+          "client_id": "277928173271-7cnjp39tjodk9obbmkgidr7viecbqv3n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvfaJmrUUXyzN9UMWneIVBj438LIZPTVk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "277928173271-7cnjp39tjodk9obbmkgidr7viecbqv3n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

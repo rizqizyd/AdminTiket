@@ -1,0 +1,187 @@
+<html>
+    <head>
+        <title>Sign In Admin Tiket</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Login Tiket Admin">
+        <meta name="keywords" content="Tiket, Web Dashboard, Login Tiket">
+        <meta name="author" content="Team">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+        <body>
+
+      <div class="side-left">
+        <div class="shortcut" onmouseover="showAdminProfile()">
+          <div class="emblemapp">
+            <img src="images/emblem_app.png" height="23" alt="">
+          </div>
+          <div class="menus">
+            <div class="item-menu">
+              <a href="dashboard.html"><p class="icon-item-menu"><i class="fab fa-delicious"></i></p></a>
+            </div>
+            <div class="item-menu inactive">
+              <a href="sales.html"><p class="icon-item-menu"><i class="fas fa-ticket-alt"></i></p></a>
+            </div>
+            <div class="item-menu inactive">
+              <a href="wisata.html"><p class="icon-item-menu"><i class="fas fa-globe"></i></p></a>
+            </div>
+            <div class="item-menu inactive">
+              <a href="customer.html"><p class="icon-item-menu"><i class="fas fa-users"></i></p></a>
+            </div>
+            <div class="item-menu inactive">
+              <a href="setting.html"><p class="icon-item-menu"><i class="fas fa-cog"></i></p></a>
+            </div>
+            <div class="item-menu inactive">
+              <a href="#"><p class="icon-item-menu"><i class="fas fa-power-off"></i></p></a>
+            </div>
+          </div>
+        </div>
+        <div class="admin-profile" id="sl_ap" onmouseover="showAdminProfile()" onmouseout="hideAdminProfile()">
+          <div class="admin-picture">
+            <img src="images/admin_picture.png" alt="">
+          </div>
+          <p class="admin-name">M. Rizqi Az</p>
+          <p class="admin-level">Super Admin</p>
+          <ul class="admin-menus">
+            <a href="dashboard.html"><li class="active-link">My Dashboard</li></a>
+            <a href="sales.html"><li>Ticket Sales</li></a>
+            <a href="wisata.html"><li>Manage Wisata</li></a>
+            <a href="customer.html"><li>Customer <span class="badge-tiketwisata badge badge-pill badge-primary">78</span></li></a>
+            <a href="setting.html"><li>Account Settings</li></a>
+            <a href="#"><li style="padding-top: 80px;">Logout</li></a>
+          </ul>
+        </div>
+      </div>
+
+      <div class="main-content">
+        <div class="header row">
+          <div class="col-md-12">
+            <p class="header-title">My Dashboard</p>
+            <p class="subheader-title">Latest report uploaded this week and on</p>
+          </div>
+        </div>
+        <div class="row report-group">
+            <div class="col-md-4">
+              <div class="item-report col-md-12">
+                <div class="row">
+                  <div class="content col-md-12">
+                    <img height="50" src="images/icon_total_pengguna.png" alt="">
+                    <p class="title-item">TOURIST</p>
+                    <p class="subtitle-item">USERS LIFETIME</p>
+                    <p class="value-item">130</p>
+                    <p class="desc-item">around the earth</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="item-report col-md-12">
+                <div class="row">
+                  <div class="content col-md-12">
+                    <img height="50" src="images/icon_total_sales.png" alt="">
+                    <p class="title-item">SALES</p>
+                    <p class="subtitle-item">TICKETS BEING SOLD</p>
+                    <p class="value-item">73</p>
+                    <p class="desc-item">around the world</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="item-report col-md-12">
+                <div class="row">
+                  <div class="content col-md-12">
+                    <img height="50" src="images/icon_total_wisata.png" alt="">
+                    <p class="title-item">WISATA</p>
+                    <p class="subtitle-item">PLACE THAT AVAILABLE</p>
+                    <p class="value-item">32</p>
+                    <p class="desc-item">around the earth</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="row report-group">
+          <div class="item-report-group col-md-6">
+            
+            <div class="item-big-report col-md-12">
+              <p class="title"><span class="title-blue">NEWEST</span> USERS</p>
+              <p class="subtitle">USER THAT SIGN UP NOWDAYS</p>
+              <a href="#" class="btn btn-small btn-primary btn-primary-tiketwisata">See More</a>
+              <!-- wkwk -->
+            </div>
+            <div class="divider-line"></div>
+            <div class="user-item col-md-12">
+              <div class="user-picture">
+                <img src="images/admin_picture.png" alt="">
+              </div>
+              <p class="title">Gita</p>
+              <p class="subtitle">Traveller</p>
+              <a href="#" class="btn btn-primary btn-small-border ">View Profile</a>
+            </div>
+
+            <div class="user-item col-md-12">
+              <div class="user-picture">
+                <img src="images/admin_picture.png" alt="">
+              </div>
+              <p class="title">Gita</p>
+              <p class="subtitle">Traveller</p>
+              <a href="#" class="btn btn-primary btn-small-border ">View Profile</a>
+            </div>
+
+            <div class="user-item col-md-12">
+              <div class="user-picture">
+                <img src="images/admin_picture.png" alt="">
+              </div>
+              <p class="title">Gita</p>
+              <p class="subtitle">Traveller</p>
+              <a href="#" class="btn btn-primary btn-small-border ">View Profile</a>
+            </div>
+          </div>
+
+          <div class="item-report-group col-md-6">
+            
+            <div class="item-big-report col-md-12">
+              <p class="title"><span class="title-blue">NEWEST</span> USERS</p>
+              <p class="subtitle">USER THAT SIGN UP NOWDAYS</p>
+              <a href="#" class="btn btn-small btn-primary btn-primary-tiketwisata">See More</a>
+              <!-- wkwk -->
+            </div>
+            <div class="divider-line"></div>
+            <div class="user-item col-md-12">
+              <div class="user-picture">
+                <img src="images/admin_picture.png" alt="">
+              </div>
+              <p class="title">Gita</p>
+              <p class="subtitle">Traveller</p>
+              <a href="#" class="btn btn-primary btn-small-border ">View Profile</a>
+            </div>
+
+            <div class="user-item col-md-12">
+              <div class="user-picture">
+                <img src="images/admin_picture.png" alt="">
+              </div>
+              <p class="title">Gita</p>
+              <p class="subtitle">Traveller</p>
+              <a href="#" class="btn btn-primary btn-small-border ">View Profile</a>
+            </div>
+
+            <div class="user-item col-md-12">
+              <div class="user-picture">
+                <img src="images/admin_picture.png" alt="">
+              </div>
+              <p class="title">Gita</p>
+              <p class="subtitle">Traveller</p>
+              <a href="#" class="btn btn-primary btn-small-border ">View Profile</a>
+            </div>
+          </div>
+              
+        </div>
+      </div>
+      </div>
+        
+      <script type="text/javascript" src="js/bootstrap.js"></script>
+      <script type="text/javascript" src="js/main.js"></script>
+    </body>
+
+</html>
